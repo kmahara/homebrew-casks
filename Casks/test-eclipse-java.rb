@@ -10,10 +10,6 @@ cask "test-eclipse-java" do
   desc "Eclipse IDE for Java developers"
   homepage "https://eclipse.org/"
 
-  livecheck do
-    cask "eclipse-ide"
-  end
-
   # Renamed to avoid conflict with other Eclipse.
   app "Eclipse.app", target: "Eclipse Java.app"
 
